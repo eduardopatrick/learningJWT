@@ -1,0 +1,22 @@
+GET http://localhost:3000/users
+
+
+
+### insert user
+POST http://localhost:3000/sign-up
+Content-Type: application/json 
+
+{
+   "user" : "Patrick",
+   "password" : "tarratendo"
+}
+
+### login as user
+
+POST http://localhost:3000/login
+Content-Type: application/json 
+
+{
+   "name" : "USer3",
+   "password" : "tendo"
+}
